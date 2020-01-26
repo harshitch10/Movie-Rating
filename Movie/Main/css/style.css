@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0; }
+body{
+  background-image: url('back.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment:fixed;
+}
+#movies .card {
+  padding: 15px;
+  margin: 0 0 15px 0; 
+}
+  @media (min-width: 960px) {
+    #movies .card {
+      width: 100%;
+      height: 390px;
+     } 
+    }
+  #movies .card h2 {
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-family: helvetica; 
+  }
+  #movies .card img {
+    width: 100%; 
+  }
+    @media (min-width: 960px) {
+      #movies .card img {
+        height: 240px; 
+      } 
+      }
+  #movies .card a {
+    margin: 0 auto; 
+  }
+    #movies .card a:hover {
+      color: white; 
+    }
+
+#movie {
+  color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+ }
+  #movie .block {
+    padding: 15px;
+   }
+    #movie .block img {
+      width: 100%; 
+    }
+
+      #footer1 {
+        width:100%;
+        bottom:0;
+        position: fixed;
+        background-attachment: fixed;
+      }
